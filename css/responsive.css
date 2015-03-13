@@ -1,0 +1,119 @@
+﻿@media (max-width:1000px){
+    .col-md-3,
+    .col-md-4,
+    .col-md-8,
+    .col-md-9{
+        float: left;
+    }
+    .col-md-4{
+        width: 33.33333%;
+    }
+    .col-md-8{
+        width: 66.6667%;
+    }
+    .col-md-3{
+        width: 25%;
+    }
+    .col-md-9{
+        width: 75%;
+    }
+    .square,
+    .post_icon{
+        margin-right: 10px;
+    }
+    .testimonial_col .right_col{
+        width: 100%;
+    }
+    .square,
+    .post_icon{
+        width: 100%;
+    }
+    .popup_wrapper .popup_btn {
+        left: -10px;
+    }
+    .btn{
+        margin: 4px;
+    }
+    .col-md-4.right{
+        padding-bottom: 20px;
+    }
+}
+@media (max-width:800px){
+    .pay{
+        height: 100%;
+        padding-left: 10px;
+        width: 370px;
+    }
+    .pay .left,
+    .pay .right{
+        width: 100%;
+    }
+    .pay .right {
+        background: url("../img/secure.png") no-repeat scroll right bottom rgba(0, 0, 0, 0);
+        padding-bottom: 130px;
+    }
+    .pay .left .credit{
+        padding: 10px 120px 10px 15px;
+        width: 310px;
+    }
+    .pay .left:after,
+    .web .main .left:after{
+        background: none;
+    }
+}
+@media (max-width:700px){
+    .col-md-4{
+        width: 100%;
+    }
+    .img_with_popup {
+        margin: 0 auto 15px;
+        width: 43%;
+    }
+    .title{
+        text-align: center;
+    }
+    .col-md-9 .title{
+        text-align: left;
+    }
+    .col-md-8{
+        width: 100%;
+    }
+    .posts_and_testimonials {
+        margin-bottom: 15px;
+    }
+}
+@media (max-width:500px){
+    .img_with_popup {
+        width: 60%;
+    }
+    .drop_second {
+        left: 60%;
+    }
+}
+@media (max-width:400px){
+    .drop_second {
+        left: 30%;
+    }
+    .pay,
+    .login,
+    .continue{
+        width: 290px;
+    }
+    .login{
+        padding-left: 10px;
+    }
+    .pay .counter{
+        margin: 15px 20px;
+    }
+    .pay .left .credit,
+    .login .log_in{
+        width: 240px;
+    }
+    .contacts .left form {
+        text-align: center;
+        width: 100%;
+    }
+    .container .contacts .left form input.btn{
+        float: none;
+    }
+}
